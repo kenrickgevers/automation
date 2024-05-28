@@ -28,4 +28,4 @@ jobs:
         uses: docker/run-action@v1
         with:
           image: hello-world-nginx:v1
-          options: -p 80:80
+          options: -p 8080:80
